@@ -321,13 +321,11 @@ address {
   margin-left: auto;
   margin-right: auto;
   transition: var(--transition);
-  transition-property: background, box-shadow;
+  transition-property: background;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover {
   background: var(--ocean);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .section {
@@ -521,7 +519,7 @@ address {
   border-radius: 4px;
   padding: 12px 24px;
   transition: var(--transition);
-  transition-property: background;
+  transition-property: background, box-shadow, color, border;
 }
 
 .filter-button.active,
@@ -531,7 +529,8 @@ address {
   border: 1px solid var(--ocean);
   background: var(--ocean);
   cursor: pointer;
-  box-shadow: ;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .services-list {
